@@ -14,7 +14,7 @@ header {
 }
 
 footer {
-    height: 100px;
+    height: auto;
     width: 100%;
     background-color: #878787;
     display: flex;
@@ -110,7 +110,7 @@ footer {
 .box-texto-half {
     margin: 5%;
     height: 80%;
-    width: 50%;
+    width: 60%;
 }
 
 .box-texto-half2 {
@@ -132,18 +132,32 @@ footer {
     color: #5DE36D;
 }
 
-.imagem {
-    margin: 5%;
-    height: 90%;
+.imagem-celular {
+    width: 30%;
+    max-width: 383px;
     max-height: 700px;
+    margin: 5%;
 }
 
-@media only screen and (max-width: 840px) {
+.imagem-logo {
+    width: 100%;
+}
+
+.imagens {
+    margin: 5%;
+    width: 30%
+}
+
+.direitos {
+    margin: 5%;
+}
+
+@media only screen and (max-width: 800px) {
     .menu {
         list-style: none;
         width: 100%;
         padding: 0;
-        margin: 0;
+        margin: 1%;
         font-size: 16pt;
         display: flex;
         flex-direction: column;
@@ -171,28 +185,45 @@ footer {
         text-shadow: 0px 0px 20px black;
     }
 
-    .imagem-mapa {
-        width: 40%;
-        height: auto;
-        max-width: 800px;
-        margin-top: 20px;
+    .imagem-celular {
+        width: 60%;
+        max-width: 383px;
+        max-height: 700px;
+        margin: 5%;
     }
 
-    .organizacao-texto {
-        padding: 120px 50px 120px 50px;
+    .section1 {
         height: auto;
-        width: auto;
+        width: 100%;
+        min-height: 100px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url(hunger.jpg);
+    }
+    
+    .section2 {
+        height: auto;
+        width: 100%;
         min-height: 100px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-image: url(comida.jpg);
     }
-
-    .organizacao-texto2 {
-        padding: 120px 50px 120px 50px;
+    
+    .section-sem-imagem {
         height: auto;
-        width: auto;
+        width: 100%;
         min-height: 100px;
         display: flex;
         flex-direction: column;
