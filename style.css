@@ -5,10 +5,6 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-h1 {
-    margin-top: 0;
-}
-
 header {
     background-color: #F5F5F5;
     width: 100%;
@@ -17,15 +13,10 @@ header {
     justify-content: space-around;
 }
 
-section {
-    width: 100%;
-}
-
 footer {
     height: 100px;
     width: 100%;
-    padding: 1%;
-    background-color: #1b120f;
+    background-color: #878787;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -47,7 +38,7 @@ footer {
 
 .menu {
     list-style: none;
-    width: 50%;
+    width: 40%;
     height: auto;
     padding: 0;
     margin: 0;
@@ -57,7 +48,7 @@ footer {
 }
 
 .celula-menu {
-    width: 25%;
+    width: 33%;
     height: 100%;
     color: #5DE36D;
     padding: 1%;
@@ -73,60 +64,59 @@ footer {
     color: #5afa99;
 }
 
-.header-e-foto {
+.section1 {
     height: auto;
     width: 100%;
-    background-image: url(https://conteudo.imguol.com.br/c6/2018/03/23/pizza-rosmarino-1521825399117_v2_1280x854.jpg);
+    min-height: 100px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
+    display: flex;
+    align-items: center;
+    background-image: url(hunger.jpg);
 }
 
-.segunda-section {
+.section2 {
     height: auto;
     width: 100%;
-    background-image: url(http://cozinhasimples.com.br/wp-content/uploads/2016/04/cozinha-simples-massa-de-pizza-facil.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-}
-
-.organizacao-texto {
-    padding: 120px 50px 120px 50px;
-    height: auto;
-    width: auto;
     min-height: 100px;
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-image: url(comida.jpg);
 }
 
-.box-texto-full {
-    height: 80%;
-    width: 80%;
-    text-shadow: 0px 0px 20px black;
-}
-
-.organizacao-texto2 {
-    padding: 5% 1% 5% 1%;
+.section-sem-imagem {
     height: auto;
-    width: auto;
+    width: 100%;
     min-height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.box-texto-half {
+.box-texto-full {
+    margin: 5%;
     height: 80%;
-    width: 40%;
+    width: 80%;
+    text-shadow: 0px 0px 20px black;
+}
+
+.box-texto-half {
+    margin: 5%;
+    height: 80%;
+    width: 50%;
 }
 
 .box-texto-half2 {
+    margin: 5%;
     height: 80%;
-    width: 40%;
+    width: 50%;
     text-shadow: 0px 0px 20px black;
 }
 
@@ -142,17 +132,11 @@ footer {
     color: #5DE36D;
 }
 
-.imagem-iphone {
+.imagem {
+    margin: 5%;
     height: 90%;
     max-height: 700px;
 }
-
-.imagem-mapa {
-    width: 40%;
-    height: auto;
-    max-width: 800px;
-}
-
 
 @media only screen and (max-width: 840px) {
     .menu {
